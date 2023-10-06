@@ -1,0 +1,48 @@
+body {
+  background-color: whitesmoke;
+}
+.App {
+  text-align: center;
+}
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-container {
+  border-radius: 1vw;
+  margin: 1vw 0vw;
+  width: 50vw;
+  height: 20vw;
+  height: min-content;
+  background-color: rgba(208, 208, 208, 0.827);
+  box-shadow: rgba(24, 23, 23, 0.989) 0px 5px 15px;
+}
+.btn {
+  margin: 4vw 0vw;
+  gap: 2vw;
+}
+button {
+  gap: 2vw;
+  padding: 0.5vw;
+  font-size: 1.2vw;
+  cursor: pointer;
+  background-color: rgb(93, 239, 191);
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 0vw 2.5vw;
+}
+input {
+  background-color: rgb(208, 208, 208);
+}
+
+p {
+  font-size: 1.4vw;
+  width: 35vw;
+  margin-left: 7vw;
+}
+.title {
+  font-size: 1.5vw;
+  font-weight: bold;
+}
